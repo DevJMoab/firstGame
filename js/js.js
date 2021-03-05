@@ -4,7 +4,7 @@ function start() { // Inicio da função start()
 	
 	$("#fundoGame").append("<div id='jogador' class='anima1 rotated'></div>");
 	$("#fundoGame").append("<div id='inimigo1' class='anima2'></div>");
-	$("#fundoGame").append("<div id='inimigo2'></div>");
+	$("#fundoGame").append("<div id='inimigo2' class='anima5'></div>");
     $("#fundoGame").append("<div id='amigo' class='anima3'></div>");
     $("#fundoGame").append("<div id='placar'></div>");
     $("#fundoGame").append("<div id='energia'></div>");
@@ -388,7 +388,7 @@ function movefundo() {
                 
                 if (fimdejogo==false) {
                 
-                $("#fundoGame").append("<div id=inimigo2></div");
+                $("#fundoGame").append("<div id='inimigo2' class='anima5'></div");
                 
                 }
                 
